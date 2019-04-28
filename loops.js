@@ -18,12 +18,21 @@ function whileLoop(n) {
   return 'done';
 }
 
+<<<<<<< HEAD
 var i = 0;
+=======
+
+
+function doWhileLoop(int) {
+  
+  var i = 0;
+>>>>>>> b8bb7240fc4d35520aa7fd01ba56d747824ffe0f
 
 function incrementVariable() {
   i = i + 1;
   return i;
 }
+<<<<<<< HEAD
 
 function doWhileLoop(num) {
   
@@ -31,4 +40,10 @@ function doWhileLoop(num) {
     console.log("I run once regardless");
   } while (incrementVariable() <= num );
   return num;
+=======
+  
+  do {
+    console.log("I run once regardless");
+  } while (incrementVariable() > int );
+>>>>>>> b8bb7240fc4d35520aa7fd01ba56d747824ffe0f
 }
